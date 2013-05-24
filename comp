@@ -1,0 +1,2 @@
+#! /bin/sh
+gcc "./disp.c" "./map code/world.c" "./util/simplex.c" -lm -lncursesw -o disp
